@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .base_color {
+        @apply text-[#0050AE];
+    }
+    .base_text {
+        @apply text-[13px] text-black/60;
+    }
+    .whiteM_text {
+        @apply text-[12px] text-white;
+    }
+    .whiteL_text {
+        @apply text-[16px] text-white font-bold;
+    }
+    .center-flex {
+        @apply flex justify-center items-center;
+    }
+    .button-color {
+        @apply bg-[#0050AE] text-white border rounded-2xl;
+    }
+    .base_bg {
+        @apply bg-[#0050AE];
+    }
+    .button_off {
+        @apply bg-gray-300 w-[124px] py-2 rounded-lg text-white font-normal;
+    }
+    .button_on {
+        @apply bg-[#0e47a1] w-[124px] py-2 rounded-lg text-white font-normal;
+    }
+    .input {
+        @apply w-[200px] h-[30px] text-[14px] py-2 px-1 border-b focus:outline-none hover:outline-none hover:border-[#0075FF];
+    }
+    .genderBtnOff {
+        @apply basis-1/2 h-full rounded-xl;
+    }
+    .genderBtnOn {
+        @apply basis-1/2 h-full bg-[#0075FF] rounded-xl text-white;
+    }
+    .mobile_footer {
+        @apply bg-[#0050AE] h-[50px] fixed left-0 bottom-0 w-full flex justify-center items-center text-white  text-[16px];
+    }
+    .web_footer {
+        @apply bg-[#0050AE] h-[50px] absolute bottom-[90px] w-full flex justify-center items-center text-white  text-[16px] rounded-lg;
+    }
+    .mobile_step1 {
+        @apply center-flex flex-col mt-4 h-full  w-full px-6;
+    }
+    .web_step1 {
+        @apply center-flex flex-col mt-4 h-full mx-6 ;
+    }
+    .footer {
+        @apply fixed bottom-0 left-0 w-full bg-[#f5f5f5] h-[100px];
+    }
+    .mobile_header {
+        @apply h-[50px] center-flex font-bold text-[16px] base_bg text-white font-['Hack-Bold'];
+    }
+    .web_header {
+        @apply h-[50px] w-full center-flex font-bold text-[16px] base_bg text-white font-['Hack-Bold'] rounded-t-lg;
+    }
+}

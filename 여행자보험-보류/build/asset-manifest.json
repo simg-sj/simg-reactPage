@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a287a3e.css",
+    "main.js": "/static/js/main.a6fff666.js",
+    "static/media/Hack-Bold.ttf": "/static/media/Hack-Bold.d34bf8455d60ea80189e.ttf",
+    "static/media/Hack-Regular.ttf": "/static/media/Hack-Regular.f2412cb7f3af2d1a6db0.ttf",
+    "static/media/top_logo.png": "/static/media/top_logo.b06a70f73bf53447e135.png",
+    "static/media/btn_back.svg": "/static/media/btn_back.24590aa6d4af08da320120b51624bdf4.svg",
+    "index.html": "/index.html",
+    "static/media/xmark-solid.svg": "/static/media/xmark-solid.c1a55c8007326e1e35e34269ec3df653.svg",
+    "static/media/clock-regular.svg": "/static/media/clock-regular.61447e1d7f59b10f26c7604d55e6535e.svg",
+    "static/media/icon_checkbox_16px_off.svg": "/static/media/icon_checkbox_16px_off.b4edaa2b8b29ba99420322b268ada79b.svg",
+    "main.1a287a3e.css.map": "/static/css/main.1a287a3e.css.map",
+    "main.a6fff666.js.map": "/static/js/main.a6fff666.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a287a3e.css",
+    "static/js/main.a6fff666.js"
+  ]
+}

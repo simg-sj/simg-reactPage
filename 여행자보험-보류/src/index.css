@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Hack-Regular';
+  font-weight: 600;
+  font-display: swap;
+  src: local('Hack-Regular'), url('./asset/font/Hack-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hack-Bold';
+  font-weight: 900;
+  font-display: swap;
+  src: local('Hack-Bold'), url('./asset/font/Hack-Bold.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  .className {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .className::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
