@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+        @apply h-[90px] bg_base w-full fixed top-0 left-0 z-[1024];
+    }
+    .header {
+        @apply h-[90px] bg_base w-full fixed top-0 left-0 z-[1024];
+    }
+    .bg_base {
+        @apply bg-[#002451];
+    }
+    .color_base {
+        @apply text-[#002451];
+    }
+    .flex_center {
+        @apply flex justify-center items-center;
+    }
+    .title_text {
+        @apply text-[30px] font-bold color_base;
+    }
+    .section {
+        @apply h-[120px] w-[300px] flex items-center justify-center border-b-4;
+    }
+    .input2 {
+        @apply w-[350px] h-[40px] text-[16px] py-2 px-1 border-b focus:outline-none hover:outline-none hover:border-[#002451] bg-white;
+    }
+    .button-color2 {
+        @apply bg-[#002451] text-white border rounded-2xl;
+    }
+    .button_off {
+        @apply bg-gray-300 w-[124px] py-2 rounded-lg text-white font-normal;
+    }
+    .button_on {
+        @apply bg_base w-[124px] py-2 rounded-lg text-white font-normal cursor-pointer;
+    }
+    .bg_base {
+        @apply bg-[#002451];
+    }
+    .base_button {
+        @apply bg-white;
+    }
+    .color_base {
+        @apply text-[#002451];
+    }
+    .flex_center {
+        @apply flex justify-center items-center;
+    }
+    .title_text {
+        @apply text-[30px] font-bold color_base;
+    }
+    .input {
+        @apply w-[200px] border-b pt-4 focus:outline-none hover:outline-none;
+    }
+    .m_input {
+        @apply w-[100px] border-b pt-4 focus:outline-none hover:outline-none
+    }
+    .button-color {
+        @apply border w-[120px] h-[30px] rounded-lg bg-[#999df8];
+    }
+    .m_button {
+        @apply border w-[120px] h-[40px] text-[12px] mt-4 font-bold bg-[#f4e5b2];
+    }
+    .button {
+        @apply border w-[200px] h-[40px] mt-4 font-bold bg-[#f4e5b2];
+    }
+    .button_on {
+        @apply bg_base w-[124px] py-2 rounded-lg text-white font-normal cursor-pointer;
+    }
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
