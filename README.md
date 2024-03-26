@@ -8,4 +8,5 @@
   터미널 명령어 : cd src 
   모듈 설치 명령어 : sudo npm i 
   *sudo 권한*
+  
 3. node_modules 디렉토리 생성되었다면 [ sudo npm run start ]
