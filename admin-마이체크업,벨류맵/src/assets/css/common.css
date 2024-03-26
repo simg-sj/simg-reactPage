@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+        @apply h-[240px] bg_base ml-[80px] pl-8 flex flex-col border rounded-b-xl shadow;
+    }
+    .text_input {
+        @apply h-[30px] focus:outline-none hover:outline-none hover:border-[#006ED0] px-2 text-[14px] rounded-lg;
+    }
+    .head_div{
+        @apply basis-1/3;
+    }
+    .card_close {
+        @apply w-[600px] h-[80px] right-10 top-64    justify-end;
+    }
+    .card_open {
+        @apply w-[600px] h-[750px] right-0 top-40 shadow border bg-white rounded-tl-xl justify-center;
+    }
+    .dash_card_cl {
+        @apply w-[calc(100%-100px)];
+    }
+    .dash_card_op{
+        @apply w-[calc(100%-100px)];
+    }
+    .bg_base {
+        @apply bg-[#006ED0];
+    }
+    .header_button {
+        @apply  h-full basis-1/2 text-white hover:font-bold ;
+    }
+    .base_font {
+        @apply text-[#777];
+    }
+    .head_button_group{
+        @apply w-[300px] bg-[#0085D0] h-[40px] flex rounded-2xl border border-[#0085D0];
+    }
+    .h_carBody {
+        @apply w-[400px] h-[150px] border rounded-2xl bg-[#F5F5F5] px-4 py-4 mt-28;
+    }
+    .head_check {
+        @apply text-black font-[700] bg-white rounded-2xl;
+    }
+    .base_button {
+        @apply bg-white;
+    }
+    .color_base {
+        @apply text-[#002451];
+    }
+    .flex_center {
+        @apply flex justify-center items-center;
+    }
+
+    .title_text {
+        @apply text-[30px] font-bold color_base;
+    }
+    .customPrev {
+        @apply absolute top-1/2 w-[20px] h-[20px] cursor-pointer -left-[50px] -translate-y-2/4 translate-x-0;
+    }
+    .customNext {
+        @apply absolute top-1/2 w-[20px] h-[20px] cursor-pointer -right-[50px] -translate-y-2/4 translate-x-0;
+    }
+    .section {
+        @apply h-[120px] w-[300px] flex items-center justify-center border-b-4;
+    }
+    .input {
+        @apply w-[350px] h-[40px] text-[16px] py-2 px-1 border-b focus:outline-none hover:outline-none hover:border-[#002451];
+    }
+    .button-color {
+        @apply bg-[#002451] text-white border rounded-2xl;
+    }
+    .button_off {
+        @apply bg-gray-300 w-[124px] py-2 rounded-lg text-white font-normal;
+    }
+    .button_on {
+        @apply bg_base w-[124px] py-2 rounded-lg text-white font-normal cursor-pointer;
+    }
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}

@@ -1,0 +1,62 @@
+
+
+export interface Person {
+    age: string | null;
+    birth: string | null;
+    bpk: number;
+    cAccount: string | null;
+    cAddr1: string | null;
+    cAddr2: string | null;
+    cBank: string | null;
+    cCell: string;
+    cInCome: string | null;
+    cJob: string | null;
+    cJobLocal: string | null;
+    cJumin: string;
+    cMail: string | null;
+    cName: string;
+    cPayDt: string | null;
+    cPost: string | null;
+    cState: string | null;
+    carNum: string | null;
+    carType: string | null;
+    carUse: string | null;
+    cmpk: string;
+    collectionYN: string;
+    company: string | null;
+    createdYMD: string;
+    dSmoke: string | null;
+    deletedYMD: string | null;
+    drinkYN: string | null;
+    fromDay: string | null;
+    height: string | null;
+    inquiryYN: string;
+    ispk: number;
+    marketingYN: string;
+    memo: string | null;
+    msgSendDate: string | null;
+    msgSendYN: string | null;
+    oDrink: string | null;
+    oldCstate: string | null;
+    pNo: string | null;
+    planCi: string;
+    premiums: string | null;
+    provisionYN: string;
+    rightYN: string;
+    sendTime: string | null;
+    sendWaitYN: string | null;
+    sex: string | null;
+    sharingYN: string;
+    signYN: string | null;
+    smokeYN: string | null;
+    toDay: string | null;
+    updatedYMD: string | null;
+    useYNull: string;
+    wDrinkCnt: string | null;
+    weight: string | null;
+    ySmoke: string | null;
+    appointDT1st : string | null;
+    appointDT2nd : string | null;
+    saleStatus : string | null;
+}
+
