@@ -1,0 +1,18 @@
+<svg id="icon_bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_14469" data-name="사각형 14469" width="32" height="32" transform="translate(168 510)" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="사각형_14470" data-name="사각형 14470" width="32" height="32" fill="none"/>
+  <g id="마스크_그룹_66237" data-name="마스크 그룹 66237" transform="translate(-168 -510)" clip-path="url(#clip-path)">
+    <g id="그룹_5046" data-name="그룹 5046" transform="translate(174 528.078)">
+      <line id="선_94" data-name="선 94" x2="9.613" y2="6.152" transform="translate(0 0)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-width="2"/>
+      <line id="선_95" data-name="선 95" x1="9.613" y2="6.152" transform="translate(9.613 0)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="그룹_5045" data-name="그룹 5045" transform="translate(174 523.078)">
+      <line id="선_94-2" data-name="선 94" x2="9.613" y2="6.152" transform="translate(0 0)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-width="2"/>
+      <line id="선_95-2" data-name="선 95" x1="9.613" y2="6.152" transform="translate(9.613 0)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
